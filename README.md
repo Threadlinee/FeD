@@ -44,9 +44,6 @@ copy ..\Program.cs .\Program.cs
 dotnet build
 After building, run the .exe directly:
 
-bash
-Copy
-Edit
 cd bin\Debug\net8.0
 File\ Encryptor\ \&\ Decrypter.exe
 💡 Tip: You can also double-click the File Encryptor & Decrypter.exe in File Explorer.
@@ -55,32 +52,21 @@ File\ Encryptor\ \&\ Decrypter.exe
 🐧 Linux
 Install .NET SDK:
 
-bash
-Copy
-Edit
 sudo apt update
 sudo apt install dotnet-sdk-8.0
 In terminal:
 
-bash
-Copy
-Edit
 dotnet new console -o FileEncryptorApp
 cd FileEncryptorApp
 mv ../Program.cs ./Program.cs
 dotnet run
 Or, build and run the output manually:
 
-bash
-Copy
-Edit
 dotnet build
 cd bin/Debug/net8.0
 ./File\ Encryptor\ \&\ Decrypter
 🧪 Example Usage
-bash
-Copy
-Edit
+
 Enter file path: /home/user/Desktop/test.pdf
 Enter encryption key (0–255): 123
 ✅ File encrypted successfully: test.pdf.encrypted
@@ -94,10 +80,6 @@ Open-source under the MIT License.
 
 👤 Author
 Made by @dionabazi with ❤️
-
-yaml
-Copy
-Edit
 
 ---
 
