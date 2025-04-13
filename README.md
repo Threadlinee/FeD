@@ -2,6 +2,10 @@
 
 A simple and fast console tool to encrypt and decrypt **any kind of file** using XOR byte encryption. Perfect for basic obfuscation or fun file-locking projects. Works on **Windows** and **Linux**.
 
+
+![image](https://github.com/user-attachments/assets/6218dc7b-4f5a-42ed-b299-d2a2d31767ab)
+
+
 ---
 
 ## ✨ Features
