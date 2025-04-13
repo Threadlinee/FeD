@@ -5,7 +5,6 @@ namespace FileEncryptor
 {
     class Program
     {
-        // Display Banner
         static void DisplayBanner()
         {
             Console.ForegroundColor = ConsoleColor.DarkMagenta;
