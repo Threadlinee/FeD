@@ -1,95 +1,99 @@
 # 🔐 File Encryptor & Decryptor (C#)
 
-A simple and lightweight console application for encrypting and decrypting any type of file using XOR encryption. Built in C# for easy cross-platform use on Windows and Linux.
+A simple and fast console tool to encrypt and decrypt **any kind of file** using XOR byte encryption. Perfect for basic obfuscation or fun file-locking projects. Works on **Windows** and **Linux**.
 
 ---
 
 ## ✨ Features
 
-- 🔁 **Encrypt & Decrypt** any file format (ZIP, PDF, DOCX, images, etc.)
-- 🧠 **Symmetric XOR encryption** (same key used for encryption & decryption)
-- 🧩 Works with both **binary** and **text** files
-- 📦 Minimal dependencies, easy to run
-- ✅ Includes input validation for file paths and keys
-- 🖥️ Cross-platform: Windows & Linux supported
+- 🔒 Encrypts **any file type** (ZIP, PDF, EXE, TXT, JPG, etc.)
+- 🔁 Reversible XOR cipher encryption
+- ✅ Input validation for file path and key
+- 📂 Saves output as `.encrypted` or `.decrypted`
+- 🧠 One key does both encryption & decryption
+- 💻 Runs on Windows and Linux
 
 ---
 
-## 🚀 How It Works
+## ⚙️ How It Works
 
-This tool applies a basic XOR cipher to encrypt and decrypt the contents of a file byte-by-byte.
+This tool uses a **symmetric XOR algorithm**:
+- XORs each byte of the file with a numeric key (0–255)
+- XORing the same file twice with the same key restores the original
 
-- Encryption simply XORs each byte with a key (0–255)
-- Decryption is identical (XOR is reversible)
-- Encrypted files are saved with `.encrypted` appended
-- Decrypted files are saved with `.decrypted` appended
+| Operation | Input File             | Output File                     |
+|-----------|------------------------|----------------------------------|
+| Encrypt   | `example.zip`          | `example.zip.encrypted`          |
+| Decrypt   | `example.zip.encrypted`| `example.zip.encrypted.decrypted`|
 
 ---
 
-## 🛠 How to Run
+## 💻 How to Run
 
-### 🪟 On Windows
+### 🪟 Windows
 
-1. Make sure you have the [.NET SDK](https://dotnet.microsoft.com/download) installed.
-2. Open **CMD** or **PowerShell**.
-3. Navigate to the folder where the `.cs` file is saved.
-4. Run:
+1. Make sure [.NET SDK](https://dotnet.microsoft.com/download) is installed.
+2. Open CMD or PowerShell in the folder containing the `.cs` file.
+3. Build and run:
 
 ```bash
 dotnet new console -o FileEncryptorApp
 cd FileEncryptorApp
-# Replace Program.cs with the provided one
+# Replace default Program.cs
 copy ..\Program.cs .\Program.cs
-dotnet run
-🐧 On Linux
-Install the .NET SDK via terminal (if not installed):
+dotnet build
+After building, run the .exe directly:
+
+bash
+Copy
+Edit
+cd bin\Debug\net8.0
+File\ Encryptor\ \&\ Decrypter.exe
+💡 Tip: You can also double-click the File Encryptor & Decrypter.exe in File Explorer.
+
+
+🐧 Linux
+Install .NET SDK:
 
 bash
 Copy
 Edit
 sudo apt update
-sudo apt install dotnet-sdk-7.0
-Open terminal and run:
+sudo apt install dotnet-sdk-8.0
+In terminal:
 
 bash
 Copy
 Edit
 dotnet new console -o FileEncryptorApp
 cd FileEncryptorApp
-# Replace Program.cs with the provided one
 mv ../Program.cs ./Program.cs
 dotnet run
-🧪 Example
+Or, build and run the output manually:
+
 bash
 Copy
 Edit
-Enter the path of the file to encrypt: C:\Users\yourname\Desktop\myfile.zip
-Enter the encryption key (numeric value between 0 and 255): 123
+dotnet build
+cd bin/Debug/net8.0
+./File\ Encryptor\ \&\ Decrypter
+🧪 Example Usage
+bash
+Copy
+Edit
+Enter file path: /home/user/Desktop/test.pdf
+Enter encryption key (0–255): 123
+✅ File encrypted successfully: test.pdf.encrypted
+To decrypt, run again with the .encrypted file and the same key.
 
-# => Output:
-File encrypted successfully. Processed file: C:\Users\yourname\Desktop\myfile.zip.encrypted
-To decrypt:
-
-Run the tool again
-
-Select "decrypt"
-
-Use the same key
-
-Get the .decrypted version of the file
-
-📁 File Output
-Action	Input Filename	Output Filename
-Encrypt	file.txt	file.txt.encrypted
-Decrypt	file.txt.encrypted	file.txt.encrypted.decrypted
 ⚠️ Disclaimer
-This is a basic encryption tool and should not be used for securing highly sensitive data in production. XOR encryption is not secure against reverse engineering or advanced attacks.
+This tool uses basic XOR encryption, which is not secure for highly sensitive data. It’s intended for educational purposes, light protection, or pranking.
 
 📄 License
-This project is open-source and available under the MIT License. Contributions are welcome!
+Open-source under the MIT License.
 
-❤️ Author
-Made with love by @dionabazi
+👤 Author
+Made by @dionabazi with ❤️
 
 yaml
 Copy
@@ -97,4 +101,8 @@ Edit
 
 ---
 
-Let me know if you'd like a LICENSE file included, or if you want this turned into a GitHub release-ready project (with solution files, .csproj, etc.).
+Let me know if you want me to:
+- Generate a `.csproj` for GitHub upload
+- Add a logo/banner to the top of the README
+- Add a command-line argument version (no user input)  
+Ready to roll this into your next tool too 👊
