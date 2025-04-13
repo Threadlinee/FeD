@@ -1,0 +1,14 @@
+C:\Users\diona\source\repos\User Agent Generator\User Agent Generator\bin\Debug\net8.0\User Agent Generator.exe
+C:\Users\diona\source\repos\User Agent Generator\User Agent Generator\bin\Debug\net8.0\User Agent Generator.deps.json
+C:\Users\diona\source\repos\User Agent Generator\User Agent Generator\bin\Debug\net8.0\User Agent Generator.runtimeconfig.json
+C:\Users\diona\source\repos\User Agent Generator\User Agent Generator\bin\Debug\net8.0\User Agent Generator.dll
+C:\Users\diona\source\repos\User Agent Generator\User Agent Generator\bin\Debug\net8.0\User Agent Generator.pdb
+C:\Users\diona\source\repos\User Agent Generator\User Agent Generator\obj\Debug\net8.0\User Agent Generator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diona\source\repos\User Agent Generator\User Agent Generator\obj\Debug\net8.0\User Agent Generator.AssemblyInfoInputs.cache
+C:\Users\diona\source\repos\User Agent Generator\User Agent Generator\obj\Debug\net8.0\User Agent Generator.AssemblyInfo.cs
+C:\Users\diona\source\repos\User Agent Generator\User Agent Generator\obj\Debug\net8.0\User Agent Generator.csproj.CoreCompileInputs.cache
+C:\Users\diona\source\repos\User Agent Generator\User Agent Generator\obj\Debug\net8.0\User Agent Generator.dll
+C:\Users\diona\source\repos\User Agent Generator\User Agent Generator\obj\Debug\net8.0\refint\User Agent Generator.dll
+C:\Users\diona\source\repos\User Agent Generator\User Agent Generator\obj\Debug\net8.0\User Agent Generator.pdb
+C:\Users\diona\source\repos\User Agent Generator\User Agent Generator\obj\Debug\net8.0\User Agent Generator.genruntimeconfig.cache
+C:\Users\diona\source\repos\User Agent Generator\User Agent Generator\obj\Debug\net8.0\ref\User Agent Generator.dll
