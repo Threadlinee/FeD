@@ -80,11 +80,3 @@ Open-source under the MIT License.
 
 👤 Author
 Made by @dionabazi with ❤️
-
----
-
-Let me know if you want me to:
-- Generate a `.csproj` for GitHub upload
-- Add a logo/banner to the top of the README
-- Add a command-line argument version (no user input)  
-Ready to roll this into your next tool too 👊
