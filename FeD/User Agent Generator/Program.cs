@@ -23,7 +23,7 @@ namespace FileEncryptor
 ██║     ██║███████╗███████╗    ██████╔╝███████╗╚██████╗██║  ██║   ██║   ██║        ██║   ███████╗██║  ██║  
 ╚═╝     ╚═╝╚══════╝╚══════╝    ╚═════╝ ╚══════╝ ╚═════╝╚═╝  ╚═╝   ╚═╝   ╚═╝        ╚═╝   ╚══════╝╚═╝  ╚═╝  
                                                                                                                           
-               File Encrypter  - Add discord: snoglide540
+               File Encrypter  - Add discord: threadline_
 ");
         }
 
