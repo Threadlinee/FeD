@@ -84,3 +84,8 @@ Open-source under the MIT License.
 
 👤 Author
 Made by @dionabazi with ❤️
+
+## ☕ Support Me
+If you like this project, feel free to [buy me a coffee](https://ko-fi.com/G2G114SBVV)!
+
+[![Buy Me a Coffee](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/G2G114SBVV)
